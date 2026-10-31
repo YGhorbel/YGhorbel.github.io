@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route } from "react-router";
+import { BrowserRouter as Router, Routes, Route } from "react-router";
 
 import Layout from "@/layout";
 import { loadLazy } from "@/lib/loadComponent";
@@ -17,12 +17,19 @@ const ArticlesPage = loadLazy(() => import("@/pages/articles"));
 const ArticlePage = loadLazy(() => import("@/pages/articles/page"));
 const NotFoundPage = loadLazy(() => import("@/pages/notfound"));
 
+const basename = import.meta.env.BASE_URL.replace(/\/$/, "");
+
+// keep old "#/talks" style links working by turning them into "/talks"
+if (window.location.hash.startsWith("#/")) {
+  window.history.replaceState(null, "", basename + window.location.hash.slice(1));
+}
+
 export default function App() {
   useGlobalMeta();
 
   return (
     <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
-      <Router>
+      <Router basename={basename}>
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Layout />}>
