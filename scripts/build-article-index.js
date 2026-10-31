@@ -39,6 +39,8 @@ function parseFrontmatter(content) {
 
 function getAllMarkdownFiles(dir) {
   let results = [];
+  // an empty articles folder is not tracked by git, so it may not exist (e.g. in CI)
+  if (!fs.existsSync(dir)) return results;
   const list = fs.readdirSync(dir, { withFileTypes: true });
 
   list.forEach((file) => {

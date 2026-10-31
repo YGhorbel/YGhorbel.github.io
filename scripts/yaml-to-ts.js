@@ -38,8 +38,8 @@ export function toTS(obj, indent = 0) {
       if (typeof value === "string") {
         // pasted text (e.g. LinkedIn posts) can contain non-breaking and zero-width spaces
         const cleaned = value
-          .replace(/[   -   　]/g, " ")
-          .replace(/[᠎​﻿]/g, "");
+          .replace(/[\u00A0\u1680\u2000-\u200A\u202F\u205F\u3000]/g, " ")
+          .replace(/[\u180E\u200B\uFEFF]/g, "");
         const finalValue = addBasePathIfAbsolute(cleaned.trim(), site.base);
         return pad(indent + 2) + `${formattedKey}: \`${finalValue}\``;
       }
