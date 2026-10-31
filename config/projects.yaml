@@ -1,0 +1,76 @@
+# =====================================================
+# Project data displayed on the Projects page.
+#
+# This section automatically fetches project information from your GitHub repositories.
+#
+# ✔ The `id` field should be the exact repository name
+#    (e.g., from: github.com/<your-username>/<repo-name>)
+#
+# ✔ The `displayName` field controls how the project name appears on the website.
+#
+# ✔ Use the `featured` field to control which projects appear on the homepage.
+#    - featured: true  → shown on the homepage
+#    - featured: false → shown only on the Projects page
+# =====================================================
+
+projects:
+  items:
+    # --- Projects without a public repo (shown without a GitHub link) ---
+    # `manual: true` entries are written as-is. `private: true` shows a
+    # "Code not public" label. Add `html_url` to link a public repo manually.
+    - manual: true
+      name: "slider-mcp-server"
+      displayName: "Slider MCP Server"
+      description: "An MCP server in Go that exposes the Slider presentation tools to AI agents over several transports, with a single backend interface shared by local, remote and in-server modes."
+      language: "Go"
+      topics: ["MCP", "Go"]
+      private: true
+      pushed_at: "2026-07-28T08:24:23Z"
+      featured: true
+
+    - manual: true
+      name: "insurance-feature-intelligence-platform"
+      displayName: "Insurance Feature Intelligence Platform"
+      description: "SUP'COM engineering project in collaboration with Allianz: a PySpark/SQL platform on Delta Lake that evaluates candidate insurance pricing features and runs automated data-quality checks."
+      language: "Python"
+      topics: ["PySpark", "Delta Lake", "Data Quality"]
+      private: true
+      created_at: "2025-10-01T00:00:00Z"
+      pushed_at: "2026-01-31T00:00:00Z"
+      featured: true
+
+    - manual: true
+      name: "spatial-reasoning-vlm-agents"
+      displayName: "Spatial Reasoning with VLM Agents"
+      description: "SUP'COM engineering project: extended an open-source, tool-augmented vision-language agent system for spatial question answering in indoor warehouse scenes, with AWS services for scalable inference."
+      html_url: "https://github.com/YGhorbel/SpatialAgent"
+      topics: ["VLM", "Agents", "AWS"]
+      pushed_at: "2025-12-07T00:28:39Z"
+      featured: true
+
+    - manual: true
+      name: "diffusion-model-unet"
+      displayName: "Diffusion Model (U-Net)"
+      description: "A diffusion-based generative model that produces synthetic data through progressive denoising, with the forward and reverse diffusion steps and noise scheduling implemented directly."
+      topics: ["Diffusion", "U-Net", "Generative AI"]
+      private: true
+      featured: false
+
+    # --- Public repos, fetched from GitHub by exact repository name ---
+    - id: "rag-lab"
+      displayName: "RAG Lab"
+      featured: true
+
+    - id: "Inssurance-Policy-Comparing-GraphRAG"
+      displayName: "Insurance Policy Comparing GraphRAG"
+      description: "Multi-agent system that ingests insurance regulations, builds a knowledge graph and embeddings, and produces policy comparisons and recommendations."
+      featured: true
+
+    - id: "Fincommerce-app"
+      displayName: "Fincommerce App"
+      featured: true
+
+    - id: "ontology-agent"
+      displayName: "Ontology Agent"
+      description: "LangGraph agent that generates an OWL + SKOS ontology from a PostgreSQL database, as a semantic layer for a natural-language-to-SQL agent."
+      featured: false

@@ -1,0 +1,402 @@
+# =====================================================
+# Data displayed on the Home (About Me) page.
+#
+# 💡 Tip for Images / Logo:
+# You can use either:
+# 1. A full URL (e.g., https://example.com/logo.png)
+# 2. A local file placed under /public/images/ and referenced with "/" (e.g., "/images/logo.png")
+# =====================================================
+
+# =====================================================
+# 👤 Personal Information
+# =====================================================
+
+profile:
+  name: "Yassine Ghorbel"
+  headline: "AI engineer building agentic and retrieval-driven systems"
+  email: "yassine.ghorbel.rep@gmail.com"
+  location: "Tunis, Tunisia"
+  profileImage: "/images/profile.jpg"
+
+  links:
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/yassine-ghorbel/"
+      icon:
+        name: "FaLinkedin"
+        package: "react-icons/fa6"
+
+    - name: "Résumé"
+      url: "/pdf/resume.pdf"
+      icon:
+        name: "FaRegIdBadge"
+        package: "react-icons/fa6"
+
+    - name: "Email"
+      url: "mailto:yassine.ghorbel.rep@gmail.com"
+      icon:
+        name: "FaRegEnvelope"
+        package: "react-icons/fa6"
+
+  # you can use HTML syntax here (e.g. <br/>, <a>, <strong>, ...)
+  biography: |
+    Hi! I'm <strong>Yassine Ghorbel</strong>, an <em>AI engineer</em> building agentic and retrieval-driven systems, with hands-on ML/MLOps experience across domains.
+    I have worked on agentic systems, neuro-symbolic NLP pipelines, and production ML infrastructure, with a strong background in graph-based retrieval, knowledge engineering, and backend deployment.
+    <div class="my-2"></div>
+    I like turning research ideas into working prototypes, taking them from a first experiment to something that actually runs and can be used.
+    <div class="my-2"></div>
+    Feel free to <a href="mailto:yassine.ghorbel.rep@gmail.com" target="_blank" rel="noopener noreferrer">reach out</a> to connect.
+
+# # =====================================================
+# # 🎓 Education Section
+# # =====================================================
+
+education:
+  - degree: "ICT Engineering Degree (AI Agents for Services, MLOps, Core CS)"
+    school: "Higher School of Communications Tunis (SUP'COM)"
+    years: "Sept 2023 - Sept 2026"
+    logo: "/images/supcom_logo.png"
+
+  - degree: "Advanced Mathematics, Theoretical Physics, Python (ranked 164/1500)"
+    school: "Faculty of Sciences of Sfax"
+    years: "Sept 2021 - Aug 2023"
+    logo: "/images/sfax_logo.png"
+
+# # =====================================================
+# # 💼 Work Experience Section
+# # =====================================================
+
+workExperience:
+  - title: "AI Intern - NL2SQL (Neuro-Symbolic Schema Linking)"
+    company: "Guepard"
+    years: "Feb 2026 - Jul 2026"
+    logo: "/images/guepard_logo.png"
+
+  - title: "Community Builder"
+    company: "Guepard"
+    years: "Mar 2025 - Present"
+    logo: "/images/guepard_logo.png"
+
+  - title: "Research Intern - Insurance Policy Design"
+    company: "Allianz Technology"
+    years: "Oct 2025 - Jan 2026"
+    logo: "/images/allianz_logo.jpg"
+
+  - title: "AI Intern - Network Issue Classification with MLOps"
+    company: "Huawei R&D"
+    years: "Jul 2025 - Aug 2025"
+    logo: "/images/huawei_logo.png"
+
+  - title: "AI Intern - Brain Tumor Classification"
+    company: "CRNS (Digital Research Center of Sfax)"
+    years: "Jun 2024 - Aug 2024"
+    logo: "/images/crns_logo.jpg"
+
+# # =====================================================
+# # 🎤 Presentations / Talks Section
+# # =====================================================
+
+talks:
+  - category: "Videos"
+    title: "Database Time-Travel: The Undo Button Your E-commerce Needs"
+    organization: "Guepard HQ (YouTube)"
+    date: "Nov 12, 2025"
+    link: "https://www.youtube.com/watch?v=6CTcBvwxgFA"
+    image: "https://i.ytimg.com/vi/6CTcBvwxgFA/hqdefault.jpg"
+
+  - category: "Videos"
+    title: "How to Manage Database Migration Using Guepard CLI"
+    organization: "Guepard HQ (YouTube)"
+    date: "Jan 19, 2026"
+    link: "https://www.youtube.com/watch?v=oDG3H6e9F_E"
+    image: "https://i.ytimg.com/vi/oDG3H6e9F_E/hqdefault.jpg"
+
+  - category: "Videos"
+    title: "AI Agents are useless… until you connect them to this"
+    organization: "Guepard HQ (YouTube)"
+    date: "Feb 18, 2026"
+    link: "https://www.youtube.com/watch?v=FaArp9tk9ds"
+    image: "https://i.ytimg.com/vi/FaArp9tk9ds/hqdefault.jpg"
+
+  - category: "Videos"
+    title: "We gave AI access to Production… Here’s what happened"
+    organization: "Guepard HQ (YouTube)"
+    date: "Mar 4, 2026"
+    link: "https://www.youtube.com/watch?v=4ZLfAAWoiTI"
+    image: "https://i.ytimg.com/vi/4ZLfAAWoiTI/hqdefault.jpg"
+
+  - category: "Videos"
+    title: "Your AI Agent could wipe your Database tomorrow (Unless you do this)"
+    organization: "Guepard HQ (YouTube)"
+    date: "Mar 19, 2026"
+    link: "https://www.youtube.com/watch?v=HHa4XJcjSBE"
+    image: "https://i.ytimg.com/vi/HHa4XJcjSBE/hqdefault.jpg"
+    embed: false # YouTube blocks embedded playback for this video, so open it on YouTube
+
+# # =====================================================
+# # 🛡️ Professional Services
+# # =====================================================
+
+services:
+  - category: "Mentoring"
+    role: "Technical Lead & Jury Member"
+    organization: "Orange - IEEE Hackathon TSYP 13 (mentored participants on AWS)"
+    date: null
+    link: null
+    image: null
+
+  - category: "Mentoring"
+    role: "ML Lead"
+    organization: "Google Developer Groups SUP'COM (AI/ML workshops and student project mentoring)"
+    date: null
+    link: null
+    image: null
+
+  - category: "Awards"
+    role: "1st Place"
+    organization: "IndabaX Tunisia 2025 (ETL pipeline and optimized BERT inference for a top ROUGE score)"
+    date: "2025"
+    link: null
+    image: null
+
+# # =====================================================
+# # 🛠️ Skills Section
+# # =====================================================
+
+skills:
+  Programming:
+    - name: "Python"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "Go"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "C"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "C++"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "TypeScript"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "Rust"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "R"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "MATLAB"
+      logo: null
+      proficiency: null
+      description: null
+
+  Web:
+    - name: "React"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "Next.js"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "Apollo GraphQL"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "TypeScript"
+      logo: null
+      proficiency: null
+      description: null
+
+  AI/ML:
+    - name: "PyTorch"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "TensorFlow"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "Scikit-learn"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "Transformers"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "LangChain"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "LangGraph"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "LangSmith"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "RAG"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "LLMs"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "vLLM"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "TensorRT"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "NumPy"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "Pandas"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "Gradio"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "XGBoost"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "LightGBM"
+      logo: null
+      proficiency: null
+      description: null
+
+  MLOps/Backend:
+    - name: "Docker"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "GitHub Actions"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "FastAPI"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "Flask"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "CI/CD"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "REST APIs"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "MLflow"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "Prefect"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "DVC"
+      logo: null
+      proficiency: null
+      description: null
+
+  Data Engineering:
+    - name: "Apache Airflow"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "Apache Spark / PySpark"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "Delta Lake"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "Apache Kafka"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "Neo4j"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "Qdrant"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "MinIO"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "Hadoop"
+      logo: null
+      proficiency: null
+      description: null
+
+  Cloud & Tools:
+    - name: "AWS"
+      logo: null
+      proficiency: null
+      description: "S3, EC2, Lambda"
+    - name: "GCP"
+      logo: null
+      proficiency: null
+      description: "BigQuery, Dataflow"
+    - name: "Azure"
+      logo: null
+      proficiency: null
+      description: "Data Factory, Databricks"
+    - name: "Git"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "Linux"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "Streamlit"
+      logo: null
+      proficiency: null
+      description: null
+    - name: "Grafana"
+      logo: null
+      proficiency: null
+      description: null
+
+  Language:
+    - name: "English"
+      logo: null
+      proficiency: Fluent
+      description: "TOEIC 850"
+    - name: "French"
+      logo: null
+      proficiency: B2
+      description: "Diploma-certified; comfortable speaking, reading, and writing."
+    - name: "German"
+      logo: null
+      proficiency: A2
+      description: null
+    - name: "Spanish"
+      logo: null
+      proficiency: A2
+      description: null

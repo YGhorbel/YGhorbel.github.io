@@ -1,0 +1,133 @@
+{
+  "slider-mcp-server": {
+    "description": "An MCP server in Go that exposes the Slider presentation tools to AI agents over several transports, with a single backend interface shared by local, remote and in-server modes.",
+    "topics": [
+      "MCP",
+      "Go"
+    ],
+    "language": "Go",
+    "stargazers_count": null,
+    "homepage": null,
+    "html_url": null,
+    "created_at": "1970-01-01T00:00:00Z",
+    "pushed_at": "2026-07-28T08:24:23Z",
+    "displayName": "Slider MCP Server",
+    "previewImage": null,
+    "featured": true,
+    "private": true,
+    "name": "slider-mcp-server"
+  },
+  "insurance-feature-intelligence-platform": {
+    "description": "SUP'COM engineering project in collaboration with Allianz: a PySpark/SQL platform on Delta Lake that evaluates candidate insurance pricing features and runs automated data-quality checks.",
+    "topics": [
+      "PySpark",
+      "Delta Lake",
+      "Data Quality"
+    ],
+    "language": "Python",
+    "stargazers_count": null,
+    "homepage": null,
+    "html_url": null,
+    "created_at": "2025-10-01T00:00:00Z",
+    "pushed_at": "2026-01-31T00:00:00Z",
+    "displayName": "Insurance Feature Intelligence Platform",
+    "previewImage": null,
+    "featured": true,
+    "private": true,
+    "name": "insurance-feature-intelligence-platform"
+  },
+  "spatial-reasoning-vlm-agents": {
+    "description": "SUP'COM engineering project: extended an open-source, tool-augmented vision-language agent system for spatial question answering in indoor warehouse scenes, with AWS services for scalable inference.",
+    "topics": [
+      "VLM",
+      "Agents",
+      "AWS"
+    ],
+    "language": null,
+    "stargazers_count": null,
+    "homepage": null,
+    "html_url": "https://github.com/YGhorbel/SpatialAgent",
+    "created_at": "1970-01-01T00:00:00Z",
+    "pushed_at": "2025-12-07T00:28:39Z",
+    "displayName": "Spatial Reasoning with VLM Agents",
+    "previewImage": null,
+    "featured": true,
+    "private": false,
+    "name": "spatial-reasoning-vlm-agents"
+  },
+  "diffusion-model-unet": {
+    "description": "A diffusion-based generative model that produces synthetic data through progressive denoising, with the forward and reverse diffusion steps and noise scheduling implemented directly.",
+    "topics": [
+      "Diffusion",
+      "U-Net",
+      "Generative AI"
+    ],
+    "language": null,
+    "stargazers_count": null,
+    "homepage": null,
+    "html_url": null,
+    "created_at": "1970-01-01T00:00:00Z",
+    "pushed_at": "1970-01-01T00:00:00Z",
+    "displayName": "Diffusion Model (U-Net)",
+    "previewImage": null,
+    "featured": false,
+    "private": true,
+    "name": "diffusion-model-unet"
+  },
+  "rag-lab": {
+    "name": "rag-lab",
+    "description": "Local-first evaluation-driven RAG workbench for synthetic e-commerce catalogs",
+    "stargazers_count": 0,
+    "topics": [],
+    "language": "Python",
+    "homepage": null,
+    "html_url": "https://github.com/YGhorbel/rag-lab",
+    "created_at": "2026-10-15T10:19:30Z",
+    "updated_at": "2026-10-15T10:19:40Z",
+    "pushed_at": "2026-10-15T10:19:36Z",
+    "displayName": "RAG Lab",
+    "featured": true
+  },
+  "ontology-agent": {
+    "name": "ontology-agent",
+    "description": "LangGraph agent that generates an OWL + SKOS ontology from a PostgreSQL database, as a semantic layer for a natural-language-to-SQL agent.",
+    "stargazers_count": 0,
+    "topics": [],
+    "language": "TypeScript",
+    "homepage": null,
+    "html_url": "https://github.com/YGhorbel/ontology-agent",
+    "created_at": "2026-06-02T15:49:11Z",
+    "updated_at": "2026-06-29T22:17:20Z",
+    "pushed_at": "2026-06-29T22:17:14Z",
+    "displayName": "Ontology Agent",
+    "featured": false
+  },
+  "Fincommerce-app": {
+    "name": "Fincommerce-app",
+    "description": "OG-RAG Product Discovery Platform",
+    "stargazers_count": 0,
+    "topics": [],
+    "language": "TypeScript",
+    "homepage": null,
+    "html_url": "https://github.com/YGhorbel/Fincommerce-app",
+    "created_at": "2026-01-26T22:54:24Z",
+    "updated_at": "2026-01-26T22:56:00Z",
+    "pushed_at": "2026-01-26T22:55:50Z",
+    "displayName": "Fincommerce App",
+    "featured": true
+  },
+  "Inssurance-Policy-Comparing-GraphRAG": {
+    "name": "Inssurance-Policy-Comparing-GraphRAG",
+    "description": "Multi-agent system that ingests insurance regulations, builds a knowledge graph and embeddings, and produces policy comparisons and recommendations.",
+    "stargazers_count": 0,
+    "topics": [],
+    "language": "Python",
+    "homepage": null,
+    "html_url": "https://github.com/YGhorbel/Inssurance-Policy-Comparing-GraphRAG",
+    "created_at": "2025-12-28T23:09:43Z",
+    "updated_at": "2026-05-24T23:35:56Z",
+    "pushed_at": "2026-05-24T23:35:48Z",
+    "displayName": "Insurance Policy Comparing GraphRAG",
+    "featured": true
+  }
+}
